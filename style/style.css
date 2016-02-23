@@ -1,5 +1,73 @@
 body {
-     background-color: aqua;
-    background-image: url(img/back.jpg);
+     
+    background-image: url(../img/back.jpg);
+    background-position:top;
+
+}
+
+#tel{
+  position:absolute; 
+  top:20px;    
+  right: 20%; 
+  color: aliceblue;
+  font-size: 24px; 
+  font-weight: bold;    
+  font-family: OpenSans, Arial, Verdana;  
+}
+
+.logo, #offer{
+    text-align:center;
+}
+
+#title{
+  
+  text-align:center;   
+  padding-left: 20%; 
+  padding-right: 20%;     
+  color: aliceblue;
+  font-size: 18px; 
+  font-weight: bold;    
+  font-family: OpenSans, Arial, Verdana;     
+}
+
+
+
+#rec {
    
+
+    
+
+    
+}
+/*
+#rec:hover{
+    background: url(../img/order_rec_hover.png);
+    background-size:100%;
+    display: block;
+    width: 340px;
+    height: 295px;
+     position: absolute;
+     left: 15%;
+}
+
+#vid{
+      background: url(../img/order_video.png );
+    background-size:100%;
+    display: block;
+    width: 340px;
+    height: 295px;
+     position: absolute;
+     right: 15%; 
+    
+}
+
+#vid:hover{
+      background: url(../img/order_video_hover.png);
+    background-size:100%;
+    display: block;
+    width: 340px;
+    height: 295px;
+     position: absolute;
+     right: 15%; 
+    
 }
