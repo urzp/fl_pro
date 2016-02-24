@@ -33,41 +33,22 @@ body {
 
 
 #rec {
+  display: block;
    
-
-    
-
-    
+ position: absolute;
+  margin-left: 20%;    
 }
-/*
-#rec:hover{
-    background: url(../img/order_rec_hover.png);
-    background-size:100%;
-    display: block;
-    width: 340px;
-    height: 295px;
-     position: absolute;
-     left: 15%;
-}
+
+
+
 
 #vid{
-      background: url(../img/order_video.png );
-    background-size:100%;
-    display: block;
-    width: 340px;
-    height: 295px;
-     position: absolute;
-     right: 15%; 
-    
-}
 
-#vid:hover{
-      background: url(../img/order_video_hover.png);
-    background-size:100%;
     display: block;
-    width: 340px;
-    height: 295px;
      position: absolute;
-     right: 15%; 
-    
+    margin-left: 54%;
 }
+     
+#frame{
+    width:100%;
+}    
