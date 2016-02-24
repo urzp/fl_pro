@@ -33,8 +33,7 @@ body {
 
 
 #rec {
-  display: block;
-   
+  display: block; 
  position: absolute;
   margin-left: 20%;    
 }
