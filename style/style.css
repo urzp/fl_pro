@@ -2,6 +2,7 @@ body {
      
     background-image: url(../img/back.jpg);
     background-position:top;
+    background-size:cover;
 
 }
 
@@ -10,22 +11,27 @@ body {
   top:20px;    
   right: 20%; 
   color: aliceblue;
-  font-size: 24px; 
+  font-size: 1.3em; 
   font-weight: bold;    
   font-family: OpenSans, Arial, Verdana;  
 }
 
-.logo, #offer{
+.logo{
     text-align:center;
+    width: 100%;
 }
+#offer{
+ text-align:center;   
+}
+
 
 #title{
   
   text-align:center;   
-  padding-left: 20%; 
-  padding-right: 20%;     
+  padding-left: 22%; 
+  padding-right: 22%;     
   color: aliceblue;
-  font-size: 18px; 
+  font-size: 100%; 
   font-weight: bold;    
   font-family: OpenSans, Arial, Verdana;     
 }
@@ -51,3 +57,26 @@ body {
 #frame{
     width:100%;
 }    
+
+#bod_1 ,#bod_2,#bod_3, #logo_foot {
+  margin-top: 5%;
+  text-align:center;
+
+}
+
+#bod_1{
+  margin-top: 10%;  
+}
+
+#logo_foot{
+  margin-top: 20%;    
+    
+}
+
+#foot{
+   text-align:center;
+   font-size: 70%;  
+color: #373;
+    margin-left:10%;  
+    margin-right:10%; 
+}
